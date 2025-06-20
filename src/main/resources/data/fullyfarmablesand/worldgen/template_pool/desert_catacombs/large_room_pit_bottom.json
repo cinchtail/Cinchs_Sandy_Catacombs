@@ -5,7 +5,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "fullyfarmablesand:desert_catacombs/large_rooms/large_room_3",
+        "location": "fullyfarmablesand:desert_catacombs/large_rooms/large_room_4",
         "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "fullyfarmablesand:desert_catacombs/large_rooms/large_room_4",
+        "location": "fullyfarmablesand:desert_catacombs/large_rooms/large_room_5",
         "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

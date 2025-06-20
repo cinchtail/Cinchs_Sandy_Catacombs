@@ -6,18 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:archer_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brewer_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:skull_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:diamond"
         },
         {
@@ -49,6 +37,50 @@
             }
           ],
           "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25.0,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:chainmail_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 35.0,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25.0,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:crossbow"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25.0,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_axe"
         }
       ],
       "rolls": 1.0
