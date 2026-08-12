@@ -1,0 +1,33 @@
+{
+  "name": "fullyfarmablesand:desert_catacombs/redstone_cover_left",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "fullyfarmablesand:desert_catacombs/redstone_covers/redstone_cover_left",
+        "processors": "fullyfarmablesand:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "fullyfarmablesand:desert_catacombs/redstone_covers/redstone_cover_secret_room_left_1",
+        "processors": "fullyfarmablesand:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "fullyfarmablesand:desert_catacombs/redstone_covers/redstone_cover_secret_room_left_2",
+        "processors": "fullyfarmablesand:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

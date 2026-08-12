@@ -1,0 +1,15 @@
+{
+  "name": "fullyfarmablesand:desert_catacombs_trap_room_connect/trap_room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "fullyfarmablesand:desert_catacombs/trap_rooms/trap_room_1",
+        "processors": "fullyfarmablesand:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

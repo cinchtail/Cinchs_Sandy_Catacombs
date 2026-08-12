@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "the_catacombs_awaken": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "fullyfarmablesand:desert_catacombs"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": "Enter the Desert Catacombs!",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "title": "The Catacombs Awaken"
+  },
+  "requirements": [
+    [
+      "the_catacombs_awaken"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

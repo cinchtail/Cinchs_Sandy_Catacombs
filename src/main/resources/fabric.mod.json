@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
+	"authors": [
+		"${mod_authors}"
+	],
+	"contact": {
+		"homepage": "${mod_homepage}",
+		"sources": "${mod_sources}"
+	},
+	"license": "${mod_license}",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cinchtail.fullyfarmablesand.FullyFarmableSand"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "${mod_discord}",
+				"modmenu.curseforge": "${mod_curseforge}",
+				"modmenu.modrinth": "${mod_modrinth}",
+				"modmenu.kofi": "${mod_kofi}",
+				"modmenu.youtube": "${mod_youtube}"
+			}
+		}
+	}
+}

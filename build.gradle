@@ -1,0 +1,86 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = "CinchsSandyCatacombs-[Fabric-26.2]"
+}
+
+def modName = (project.findProperty('mod_name') ?: project.name) as String
+def modLicense = (project.findProperty('mod_license') ?: project.name) as String
+def modId = project.findProperty('mod_id') as String
+def modDescription = project.findProperty('mod_description') as String
+def modAuthors = project.findProperty('mod_authors') as String
+def modHomepage = project.findProperty('mod_homepage') as String
+def modSources = project.findProperty('mod_sources') as String
+def modDiscord = project.findProperty('mod_discord') as String
+def modKofi = project.findProperty('mod_kofi') as String
+def modCurseforge = project.findProperty('mod_curseforge') as String
+def modModrinth = project.findProperty('mod_modrinth') as String
+def modYouTube = project.findProperty('mod_youtube') as String
+
+repositories {
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+tasks.processResources {
+	def meta = [
+			'version': version,
+			'minecraft_version': minecraft_version,
+			'mod_version': mod_version,
+			'mod_name': modName,
+			'mod_license': modLicense,
+			'mod_id': modId,
+			'mod_description': modDescription,
+			'mod_authors': modAuthors,
+			'mod_homepage': modHomepage,
+			'mod_sources': modSources,
+			'mod_discord': modDiscord,
+			'mod_kofi': modKofi,
+			'mod_curseforge': modCurseforge,
+			'mod_modrinth': modModrinth,
+			'mod_youtube': modYouTube,
+	]
+	filesMatching('fabric.mod.json') { expand(meta) }
+	filesMatching('quilt.mod.json') { expand(meta) }
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+}
+
+java {
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+	def projectName = project.name
+	inputs.property "projectName", projectName
+
+	from("LICENSE") {
+		rename { "${it}_$projectName"}
+	}
+}
+
+publishing {
+	publications {
+		create("mavenJava", MavenPublication) {
+			from components.java
+		}
+	}
+
+	repositories {
+	}
+}

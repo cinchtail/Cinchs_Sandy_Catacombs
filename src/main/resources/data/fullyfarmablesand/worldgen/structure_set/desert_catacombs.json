@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fullyfarmablesand:desert_catacombs",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642345473,
+    "spacing": 40,
+    "separation": 30,
+    "type": "minecraft:random_spread"
+  }
+}
