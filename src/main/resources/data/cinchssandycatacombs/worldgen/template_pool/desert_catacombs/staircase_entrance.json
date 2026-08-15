@@ -1,11 +1,11 @@
 {
-  "name": "cinchssandycatacombs:desert_catacombs_staircase_entrance_connect/staircase_entrance",
+  "name": "cinchssandycatacombs:desert_catacombs/staircase_entrance",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_1",
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_entrance_1",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,16 +14,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_2",
-        "processors": "cinchssandycatacombs:desert_catacombs",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_3",
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_entrance_2",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

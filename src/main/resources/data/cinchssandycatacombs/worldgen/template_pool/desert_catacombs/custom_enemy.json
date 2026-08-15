@@ -1,11 +1,11 @@
 {
-  "name": "cinchssandycatacombs:desert_catacombs_custom_enemy/custom_enemy",
+  "name": "cinchssandycatacombs:desert_catacombs/custom_enemy",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 7,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_husk_1",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/husk_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 7,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_husk_2",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/husk_2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 7,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_husk_3",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/husk_3",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 7,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_husk_4",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/husk_4",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
     {
       "weight": 7,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_husk_5",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/husk_5",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -50,7 +50,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_husk_rare_1",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/husk_rare_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -59,7 +59,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_husk_rare_2",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/husk_rare_2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -68,7 +68,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_baby_husk_easter_egg",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/baby_husk_easter_egg",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -77,7 +77,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_zombie_1",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -86,7 +86,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_zombie_2",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -95,7 +95,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_zombie_3",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_3",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -104,7 +104,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_zombie_rare_1",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_rare_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -113,7 +113,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_skeleton_1",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -122,7 +122,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_skeleton_2",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -131,7 +131,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_skeleton_3",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_3",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -140,7 +140,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_skeleton_4",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_4",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -149,7 +149,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/custom_skeleton_rare_1",
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_rare_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

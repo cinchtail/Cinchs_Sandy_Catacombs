@@ -5,7 +5,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/redstone_covers/redstone_cover_right",
+        "location": "cinchssandycatacombs:desert_catacombs/trap_rooms/redstone_cover_right",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

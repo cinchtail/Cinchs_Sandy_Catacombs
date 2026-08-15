@@ -1,5 +1,5 @@
 {
-  "name": "cinchssandycatacombs:desert_catacombs_trap_room_connect/trap_room",
+  "name": "cinchssandycatacombs:desert_catacombs/trap_room",
   "fallback": "minecraft:empty",
   "elements": [
     {

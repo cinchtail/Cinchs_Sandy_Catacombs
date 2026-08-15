@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 4,
       "element": {
         "location": "cinchssandycatacombs:desert_catacombs/entrances/well_entrance",
         "processors": "cinchssandycatacombs:desert_catacombs",

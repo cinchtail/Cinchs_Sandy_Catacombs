@@ -1,5 +1,5 @@
 {
-  "name": "cinchssandycatacombs:desert_catacombs_adapter_connect/adapter",
+  "name": "cinchssandycatacombs:desert_catacombs/adapter",
   "fallback": "minecraft:empty",
   "elements": [
     {
