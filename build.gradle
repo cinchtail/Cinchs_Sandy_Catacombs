@@ -51,7 +51,6 @@ tasks.processResources {
 			'mod_youtube': modYouTube,
 	]
 	filesMatching('fabric.mod.json') { expand(meta) }
-	filesMatching('quilt.mod.json') { expand(meta) }
 }
 
 tasks.withType(JavaCompile).configureEach {

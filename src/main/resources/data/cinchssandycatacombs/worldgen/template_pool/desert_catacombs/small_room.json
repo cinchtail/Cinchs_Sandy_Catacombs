@@ -1,0 +1,60 @@
+{
+  "name": "cinchssandycatacombs:desert_catacombs_small_room_connect/small_room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/small_rooms/small_room_1",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/small_rooms/small_room_2",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/small_rooms/small_room_3",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/small_rooms/small_room_4",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/small_rooms/small_room_5",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/small_rooms/small_room_6",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "cinchssandycatacombs:desert_catacombs_large_room_pit_connect/large_room_pit_section",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_pit_1",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_pit_2",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

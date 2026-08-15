@@ -1,0 +1,15 @@
+{
+  "name": "cinchssandycatacombs:desert_catacombs/well_entrance",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/well_entrance",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
