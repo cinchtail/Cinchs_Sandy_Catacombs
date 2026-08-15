@@ -84,6 +84,60 @@
       },
       "limit": 8,
       "processor_type": "minecraft:capped"
+    },
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "cinchssandycatacombs:pots/desert_catacombs_common"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "cinchssandycatacombs:desert_catacombs_archeology_replaceable"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:decorated_pot",
+              "Properties": {
+              }
+            }
+          }
+        ]
+      },
+      "limit": 2,
+      "processor_type": "minecraft:capped"
+    },
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "cinchssandycatacombs:pots/desert_catacombs_rare"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "cinchssandycatacombs:desert_catacombs_archeology_replaceable"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:decorated_pot",
+              "Properties": {
+              }
+            }
+          }
+        ]
+      },
+      "limit": 1,
+      "processor_type": "minecraft:capped"
     }
   ]
 }

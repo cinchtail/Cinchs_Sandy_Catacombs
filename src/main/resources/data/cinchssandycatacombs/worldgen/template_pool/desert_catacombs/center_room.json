@@ -1,5 +1,5 @@
 {
-  "name": "cinchssandycatacombs:desert_catacombs_center_room_connect/center_room",
+  "name": "cinchssandycatacombs:desert_catacombs/center_room",
   "fallback": "minecraft:empty",
   "elements": [
     {
