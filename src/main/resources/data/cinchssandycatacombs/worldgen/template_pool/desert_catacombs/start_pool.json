@@ -28,6 +28,33 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_1",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_2",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_3",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
