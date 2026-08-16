@@ -1,5 +1,5 @@
 {
-  "name": "cinchssandycatacombs:desert_catacombs/large_room_pit_bottom_section",
+  "name": "cinchssandycatacombs:desert_catacombs/large_room_pit_bottom",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_lush_rare",
         "processors": "cinchssandycatacombs:desert_catacombs",

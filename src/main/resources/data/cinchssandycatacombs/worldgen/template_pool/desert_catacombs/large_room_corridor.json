@@ -5,7 +5,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_corridor_1",
+        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/corridors/large_room_corridor_1",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_corridor_2",
+        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/corridors/large_room_corridor_2",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,16 +23,16 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_corridor_3",
+        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/corridors/large_room_corridor_3",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 4,
+      "weight": 3,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_corridor_4",
+        "location": "cinchssandycatacombs:desert_catacombs/large_rooms/corridors/large_room_corridor_4",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
