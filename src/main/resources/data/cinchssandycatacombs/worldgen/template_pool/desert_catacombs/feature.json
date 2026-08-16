@@ -1,0 +1,20 @@
+{
+  "name": "cinchssandycatacombs:desert_catacombs/feature",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "cinchssandycatacombs:desert_catacombs_feature_placed",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}
