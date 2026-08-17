@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 4,
       "element": {
         "location": "cinchssandycatacombs:desert_catacombs/entrances/well_bottom_3",
         "processors": "cinchssandycatacombs:desert_catacombs",
@@ -32,7 +32,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_1",
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/well_bottom_4",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_2",
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/well_bottom_5",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -50,7 +50,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/entrances/staircase_3",
+        "location": "cinchssandycatacombs:desert_catacombs/entrances/well_bottom_6",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
