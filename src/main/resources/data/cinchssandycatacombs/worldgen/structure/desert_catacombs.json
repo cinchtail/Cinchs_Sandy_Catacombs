@@ -1,7 +1,7 @@
 {
   "type": "minecraft:jigsaw",
   "start_pool": "cinchssandycatacombs:desert_catacombs/start_pool",
-  "size": 10,
+  "size": 14,
   "max_distance_from_center": 90,
   "biomes": "#cinchssandycatacombs:has_structure/desert_catacombs",
   "step": "underground_structures",
