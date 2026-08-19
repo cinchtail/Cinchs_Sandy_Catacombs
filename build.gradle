@@ -24,12 +24,16 @@ def modModrinth = project.findProperty('mod_modrinth') as String
 def modYouTube = project.findProperty('mod_youtube') as String
 
 repositories {
+	maven {
+		url = "https://api.modrinth.com/maven"
+	}
 }
 
 dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	implementation "maven.modrinth:lithostitched:1.7.13-fabric-${project.minecraft_version}"
 }
 
 tasks.processResources {

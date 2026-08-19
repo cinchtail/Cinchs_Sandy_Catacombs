@@ -5,10 +5,14 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/entrances/well_entrance",
-        "processors": "cinchssandycatacombs:desert_catacombs",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "location": "cinchssandycatacombs:desert_catacombs/entrances/well_entrance",
+          "processors": "cinchssandycatacombs:desert_catacombs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        },
+        "override_terrain_adaption": "none"
       }
     }
   ]
