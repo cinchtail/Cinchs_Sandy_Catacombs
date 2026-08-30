@@ -5,28 +5,40 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_center_1",
-        "processors": "cinchssandycatacombs:desert_catacombs",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_center_1",
+          "processors": "cinchssandycatacombs:desert_catacombs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        },
+        "override_terrain_adaption": "encapsulate"
       }
     },
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_center_2",
-        "processors": "cinchssandycatacombs:desert_catacombs",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_center_2",
+          "processors": "cinchssandycatacombs:desert_catacombs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        },
+        "override_terrain_adaption": "encapsulate"
       }
     },
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_center_3",
-        "processors": "cinchssandycatacombs:desert_catacombs",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_center_3",
+          "processors": "cinchssandycatacombs:desert_catacombs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        },
+        "override_terrain_adaption": "encapsulate"
       }
     }
   ]

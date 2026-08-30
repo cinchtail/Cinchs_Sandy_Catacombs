@@ -5,19 +5,27 @@
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_1",
-        "processors": "cinchssandycatacombs:desert_catacombs",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_1",
+          "processors": "cinchssandycatacombs:desert_catacombs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        },
+        "max_count": 1
       }
     },
     {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_2",
-        "processors": "cinchssandycatacombs:desert_catacombs",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_2",
+          "processors": "cinchssandycatacombs:desert_catacombs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        },
+        "max_count": 1
       }
     },
     {
