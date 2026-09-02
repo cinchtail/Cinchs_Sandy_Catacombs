@@ -12,7 +12,7 @@
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         },
-        "override_terrain_adaption": "encapsulate"
+        "override_terrain_adaptation": "encapsulate"
       }
     },
     {
@@ -25,7 +25,7 @@
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         },
-        "override_terrain_adaption": "encapsulate"
+        "override_terrain_adaptation": "encapsulate"
       }
     },
     {
@@ -38,7 +38,7 @@
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         },
-        "override_terrain_adaption": "encapsulate"
+        "override_terrain_adaptation": "encapsulate"
       }
     }
   ]
