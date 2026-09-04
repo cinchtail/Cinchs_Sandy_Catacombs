@@ -66,6 +66,69 @@
       }
     },
     {
+      "weight": 7,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/parched_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/parched_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/parched_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/parched_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/parched_5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/parched_rare_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/parched_rare_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 1,
       "element": {
         "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/baby_husk_easter_egg",
@@ -102,9 +165,36 @@
       }
     },
     {
+      "weight": 6,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 2,
       "element": {
         "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_rare_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/zombie_rare_2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -147,9 +237,27 @@
       }
     },
     {
+      "weight": 6,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 2,
       "element": {
         "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_rare_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/custom_enemies/skeleton_rare_2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

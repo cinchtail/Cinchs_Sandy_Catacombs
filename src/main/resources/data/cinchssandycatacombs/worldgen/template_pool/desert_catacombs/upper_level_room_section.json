@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 4,
+      "weight": 1,
       "element": {
         "element_type": "lithostitched:delegating",
         "delegate": {
@@ -16,7 +16,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 1,
       "element": {
         "element_type": "lithostitched:delegating",
         "delegate": {
@@ -29,9 +29,49 @@
       }
     },
     {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_3",
+          "processors": "cinchssandycatacombs:desert_catacombs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        },
+        "max_count": 1
+      }
+    },
+    {
       "weight": 4,
       "element": {
-        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_3",
+        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_4",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_5",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_6",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/upper_level/rooms/room_section_7",
         "processors": "cinchssandycatacombs:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

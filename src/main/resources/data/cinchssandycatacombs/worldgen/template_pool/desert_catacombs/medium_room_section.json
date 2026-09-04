@@ -37,6 +37,15 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "cinchssandycatacombs:desert_catacombs/medium_rooms/medium_room_section_5",
+        "processors": "cinchssandycatacombs:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
