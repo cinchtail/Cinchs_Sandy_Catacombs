@@ -59,7 +59,7 @@ public class ModLootTableModifiers {
             });
         }
 
-        if (ModConfigs.enableStraySnowBallDrops || !ModConfigs.configMissing) {
+        if (ModConfigs.enableStraySnowBallDrops && !ModConfigs.configMissing) {
             LootTableEvents.MODIFY.register((key, tableBuilder, source, registries) -> {
                 if (key.equals(EntityTypes.STRAY.getDefaultLootTable().get())) {
                     LootPool poolBuilder = LootPool.lootPool()
@@ -74,7 +74,7 @@ public class ModLootTableModifiers {
             });
         }
 
-        if (ModConfigs.enableBoggedMossBlockDrops || !ModConfigs.configMissing) {
+        if (ModConfigs.enableBoggedMossBlockDrops && !ModConfigs.configMissing) {
             LootTableEvents.MODIFY.register((key, tableBuilder, source, registries) -> {
                 if (key.equals(EntityTypes.BOGGED.getDefaultLootTable().get())) {
                     LootPool poolBuilder = LootPool.lootPool()

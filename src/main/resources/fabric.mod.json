@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "${mod_homepage}",
-		"sources": "${mod_sources}"
+		"sources": "${mod_sources}",
+		"issues": "${mod_issues}"
 	},
 	"license": "${mod_license}",
 	"icon": "icon.png",
@@ -23,7 +24,8 @@
 		"fabricloader": ">=0.19.3",
 		"minecraft": ["26.2"],
 		"java": ">=25",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"lithostitched": ">=1.7.13"
 	},
 	"custom": {
 		"modmenu": {
@@ -33,7 +35,8 @@
 				"modmenu.modrinth": "${mod_modrinth}",
 				"modmenu.kofi": "${mod_kofi}",
 				"modmenu.youtube": "${mod_youtube}"
-			}
+			},
+			"update_checker": true
 		}
 	}
 }

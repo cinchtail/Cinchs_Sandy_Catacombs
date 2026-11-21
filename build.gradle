@@ -17,6 +17,7 @@ def modDescription = project.findProperty('mod_description') as String
 def modAuthors = project.findProperty('mod_authors') as String
 def modHomepage = project.findProperty('mod_homepage') as String
 def modSources = project.findProperty('mod_sources') as String
+def modIssues = project.findProperty('mod_issues') as String
 def modDiscord = project.findProperty('mod_discord') as String
 def modKofi = project.findProperty('mod_kofi') as String
 def modCurseforge = project.findProperty('mod_curseforge') as String
@@ -48,6 +49,7 @@ tasks.processResources {
 			'mod_authors': modAuthors,
 			'mod_homepage': modHomepage,
 			'mod_sources': modSources,
+			'mod_issues': modIssues,
 			'mod_discord': modDiscord,
 			'mod_kofi': modKofi,
 			'mod_curseforge': modCurseforge,

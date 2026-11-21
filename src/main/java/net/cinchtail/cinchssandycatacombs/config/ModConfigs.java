@@ -15,7 +15,7 @@ import java.nio.file.Path;
 
 import static net.cinchtail.cinchssandycatacombs.CinchsSandyCatacombs.MOD_ID;
 
-public class ModConfigs {
+public final class ModConfigs {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
@@ -31,7 +31,7 @@ public class ModConfigs {
     public static boolean enableStraySnowBallDrops;
     public static boolean enableBoggedMossBlockDrops;
 
-    private static boolean getOrDefaultBooleon(JsonObject json, String key, boolean defaultValue) {
+    private static boolean getOrDefault(JsonObject json, String key, boolean defaultValue) {
         return json.has(key) ? json.get(key).getAsBoolean() : defaultValue;
     }
 
@@ -48,11 +48,11 @@ public class ModConfigs {
                 json = GSON.fromJson(reader, JsonObject.class);
             }
 
-            enableHuskSandDrops = getOrDefaultBooleon(json, "enableHuskSandDrops", true);
-            enableParchedSandDrops = getOrDefaultBooleon(json, "enableParchedSandDrops", true);
-            enableCamelHuskSandDrops = getOrDefaultBooleon(json, "enableCamelHuskSandDrops", true);
-            enableCamelHuskSandDrops = getOrDefaultBooleon(json, "enableStraySnowBallDrops", false);
-            enableCamelHuskSandDrops = getOrDefaultBooleon(json, "enableBoggedMossBlockDrops", false);
+            enableHuskSandDrops = getOrDefault(json, "enableHuskSandDrops", true);
+            enableParchedSandDrops = getOrDefault(json, "enableParchedSandDrops", true);
+            enableCamelHuskSandDrops = getOrDefault(json, "enableCamelHuskSandDrops", true);
+            enableCamelHuskSandDrops = getOrDefault(json, "enableStraySnowBallDrops", false);
+            enableCamelHuskSandDrops = getOrDefault(json, "enableBoggedMossBlockDrops", false);
 
             boolean updated = false;
 
