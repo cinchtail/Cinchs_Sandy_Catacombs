@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 16,
+      "weight": 1,
       "element": {
         "location": "cinchssandycatacombs:desert_catacombs/large_rooms/large_room_lush_rare",
         "processors": "cinchssandycatacombs:desert_catacombs",
